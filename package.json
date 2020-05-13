@@ -1,0 +1,36 @@
+{
+  "name": "wishme",
+  "version": "1.0.0",
+  "description": "Birthday wish for Ashik vai",
+  "main": "main.js",
+  "preferGlobal": true,
+  "scripts": {
+    "build": "node ./main.js --exec babel-node -e js",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "chalk-animation": "^1.6.0",
+    "clear": "^0.1.0",
+    "figlet": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "engine": "node",
+  "bin": {
+    "wishme": "main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sani071/wishme"
+  },
+  "author": "Sani Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sani071/wishme/issues"
+  },
+  "homepage": "https://github.com/Sani071/wishme#readme"
+}
